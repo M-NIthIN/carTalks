@@ -1,4 +1,8 @@
 import requests
+import sys
+import os
+import json
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from src.utils.s3_utils import upload_to_s3
 from src.utils.config import INSTAGRAM_ACCESS_TOKEN
 from datetime import date

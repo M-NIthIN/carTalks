@@ -7,3 +7,4 @@ tweepy
 facebook-sdk
 google-api-python-client
 praw
+youtube-transcript-api
